@@ -4,7 +4,7 @@
 
 class Guess{
     public:
-        Guess(Code code);
+        Guess(int color1, int color2, int color3, int color4, Code solution);
         int* getFeedback();
         int* getCode();
 };

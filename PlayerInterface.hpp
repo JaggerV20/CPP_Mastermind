@@ -4,8 +4,7 @@
 
 class PlayerInterface{
     public:
-        PlayerInterface();
-        void readInteger();
+        int readInteger();
 };
 
 #endif
